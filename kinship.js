@@ -13,6 +13,9 @@ app.config(function($routeProvider) {
     })
     .when("/community", {
         templateUrl : "views/community.html"
+    })    
+    .when("/faqs", {
+        templateUrl : "views/faqs.html"
     })
     .when("/kmtg17", {
         templateUrl : "views/kmtg17.html"
