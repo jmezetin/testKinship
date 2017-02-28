@@ -19,6 +19,9 @@ app.config(function($routeProvider) {
     })
         .when("/getinvolved", {
         templateUrl : "views/getinvolved.html"
+    })    
+    .when("/elections", {
+        templateUrl : "views/elections2017.html"
     });
 });
 
