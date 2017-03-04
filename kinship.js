@@ -25,6 +25,12 @@ app.config(function($routeProvider) {
     })    
     .when("/elections", {
         templateUrl : "views/elections2017.html"
+    })
+    .when("/welcome", {
+        templateUrl : "views/welcomeTier2.html"
+    })
+    .when("/levels", {
+        templateUrl : "views/membershipLevels.html"
     });
 });
 
