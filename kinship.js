@@ -13,9 +13,15 @@ app.config(function($routeProvider) {
     })
     .when("/community", {
         templateUrl : "views/community.html"
+    })  
+    .when("/history", {
+        templateUrl : "views/history.html"
     })    
     .when("/faqs", {
         templateUrl : "views/faqs.html"
+    })
+    .when("/whyjoin", {
+        templateUrl : "views/whyjoin.html"
     })
     .when("/kmtg17", {
         templateUrl : "views/kmtg17.html"
