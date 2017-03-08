@@ -31,7 +31,8 @@ app.config(function($routeProvider) {
     })
     .when("/levels", {
         templateUrl : "views/membershipLevels.html"
-    }).when("/km2016", {
+    })
+    .when("/km2016", {
         templateUrl : "views/kmtg16.html"
     });
 });
